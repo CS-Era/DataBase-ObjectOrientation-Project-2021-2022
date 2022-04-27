@@ -1,31 +1,43 @@
 
-# 🔖 Progetto-OO/BD-2021-2022  <img src="icon.png" align="right"/> 
-#### ↬ "Object-Oriention": **_Progettazione e sviluppo di un applicativo in Java dotato di GUI per l'E-Learning_** 
 
-#### ↬ "Basi Di Dati": **_Progettazione e sviluppo di una Base di Dati Relazionale per l'E-Learning che consenta di gestire Test basati su Quiz_** 
+<img src="icons8-tazza-del-logo-java-128.png" align="right"/> 
 
-## 📑 *Organizzazione e Scelte Progettuali*
+# 📂 Files di progetto
+In questo README è presente una breve descrizione dei vari files riguardanti la parte di Object Orientation.
 
-- Tutta la documentazione sarà prodotta in Latex
-- Per la fase di modellazione si utilizzerà l'applicativo StarUML (file .mdj)
-- La condivisione del materiale avverrà tramite GitHub
-- L'ambiente di sviluppo per l'applicativo sarà Eclipse
-- Per la GUI dell'applicativo utilizzeremo Swing
-- Per la Base di Dati utilizzeremo il DBMS PostgreSQL
-- Il DBMS si troverà su una macchina virtuale (VPS) con S.O. Ubuntu Linux
 
-## ©️ *Contribuenti*
-👨‍💼  Antonio Lanuto : N86003762
+## 🗎 *Directory: Documentazione*
+- File .pdf prodotto in LATEX contenente una descrizione dettagliata di tutto il progetto, ed in particolare:
 
-🙎‍♂️  Erasmo Prosciutto : N86003546
+1️⃣ Descrizione e Analisi del Progetto 
 
-### 📬 *Contatti*
-@ an.lanuto@studenti.unina.it
+2️⃣ Progettazione concettuale
 
-@ e.prosciutto@studenti.unina.it
+3️⃣ Progettazione della soluzione
 
-## 🏬 *Info*
-- Università degli Studi di Napoli: "Federico II" 
-- Dipartimento di Ingegneria Elettrica e delle Tecnologie dell'Informazione
-- Corso di Laurea in Informatica
-- I docenti: Prof. P. Tramontana e Prof. S. Barra
+4️⃣ Features e Controlli implementati
+
+- File .png del Class Diagram del Dominio del Problema
+- File .png del Class Diagram del Dominio della Soluzione
+- File .png del Sequence Diagram di un primo metodo
+- File .png del Sequence Diagram di un secondo metodo
+
+## ⚒ *Directory: E-LearningGUI*
+↓ Codice sorgente suddiviso in packages:
+
+🗀  Controller
+ 
+🗀  DAO
+ 
+🗀   DataBase
+ 
+🗀  GUI 
+ 
+🗀   ImplementazionePostgresDAO
+ 
+🗀   Model
+ 
+🗀   Images
+
+## 💻 *Directory Eseguibile*
+- Applicativo eseguibile .jar
